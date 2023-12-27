@@ -75,19 +75,19 @@ export default {
   },
   proxy: {
     '/api': {
-      target: 'http://127.0.0.1:8880', // 目标服务器
+      target: 'http://43.251.103.161:8880', // 目标服务器
       changeOrigin: true,
     },
     '/view': {
-      target: 'http://127.0.0.1:8880', // 目标服务器
+      target: 'http://43.251.103.161:8880', // 目标服务器
       changeOrigin: true,
     },
     '/uploads': {
-      target: 'http://127.0.0.1:8880', // 目标服务器
+      target: 'http://43.251.103.161:8880', // 目标服务器
       changeOrigin: true,
     },
     '/download': {
-      target: 'http://127.0.0.1:8880', // 目标服务器
+      target: 'http://43.251.103.161:8880', // 目标服务器
       changeOrigin: true,
     },
   },
